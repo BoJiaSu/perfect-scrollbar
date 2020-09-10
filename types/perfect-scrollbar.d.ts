@@ -31,8 +31,8 @@ declare class PerfectScrollbar {
   isRtl: boolean;
   isScrollbarXUsingBottom: boolean;
   isScrollbarYUsingBottom: boolean;
-  lastScrollLeft: boolean;
-  lastScrollTop: boolean;
+  lastScrollLeft: number;
+  lastScrollTop: number;
   negativeScrollAdjustment: number;
   railBorderXWidth: number;
   railBorderYWidth: number;
